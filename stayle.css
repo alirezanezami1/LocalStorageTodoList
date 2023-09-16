@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f0f0e3;
+}
+
+.mainContainer {
+    position: relative;
+    width: 500px;
+    height: 550px;
+    background-color: #96B6C5;
+    top: 100px;
+    border-radius: 15px;
+    overflow: scroll;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bi-plus-square-fill {
+    font-size: 34px;
+    position: absolute;
+    top: 8px;
+    left: 62px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.newTodo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #F1F0E8;
+    color: black;
+}
+
+.newTodo p {
+    position: relative;
+    top: 7px;
+    font-size: 20px;
+}
+
+.newTodo2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #f1f0e884;
+    color: black;
+}
+.newTodo2 p {
+    position: relative;
+    top: 7px;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.bi-check-circle-fill {
+    color: green;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.bi-arrow-clockwise {
+    color: rgb(14, 16, 14);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.bi-x-circle-fill {
+    color: rgb(183, 34, 34);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
